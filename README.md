@@ -8,12 +8,12 @@ Ajuda no tratamento de elementos de exibição HTML, onde se busca o dado de um 
 3 - Quando o numero ja esta float e formatado necessitando apenas do tratamento de troca para virgula ou ponto na separação e fica pronto apenas retorna o propio dado.
 
 Quando se usar? 
-- Quando se busca um dado de valor (dinheiro) onde os dados possuem formatação diferente, recebem tratamento como descrito abaixo.
+-- Quando se busca um dado de valor (dinheiro) onde os dados possuem formatação diferente, recebem tratamento como descrito abaixo.
 Exemplos: 
-R$ 21 = R$ 21,00
-R$ 0,2 = R$ 0,20
-R$ 1199 = R$ 1199,00
-R$ 0 = R$ 0,00
+- R$ 21 = R$ 21,00
+- R$ 0,2 = R$ 0,20
+- R$ 1199 = R$ 1199,00
+- R$ 0 = R$ 0,00
 
 Após trata-los interessante adicionar a mascara para formatação conforme necessaria, o intuito é da ferramenta é ajudar no tratamento desses dados antes de envia-los a mascara.
 
